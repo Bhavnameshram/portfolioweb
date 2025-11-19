@@ -1,28 +1,31 @@
 import React from 'react'
+import './Navbar.css'
 
-function navbars() {
+
+function Navbars() {
   return (
     <div>
-      <div class="bg">
-        <div class="container">
+      <div className="bg">
+        <div className="container">
             <nav>
-                <img src="./img/I_am__B_-removebg-preview (1).png" class="logo" alt="">
+                <img src="./img/I_am__B_-removebg-preview (1).png" className="logo" alt="" />
                 <ul>
-                    <li><a href="#"></a>Home</li>
-                    <li><a href="#"></a>About</li>
-                    <li><a href="#"></a>Services</li>
-                    <li><a href="#"></a>Portfolio</li>
-                    <li><a href="#"></a>Contact</li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/About">About</a></li>
+                    <li><a href="/Services">Services</a></li>
+                    <li><a href="/Portfolio">Portfolio</a></li>
+                    <li><a href="/Contact">Contact</a></li>
                 </ul>
             </nav>
-            <div class="data">
+            <div className="data">
                 <p>Fronted Devloper</p>
-                <h1>Hi, I'm <br> <span>Bhavna Meshram</span> <br>From Nagpur</h1>
+                <h1>Hi, I'm <br />
+                 <span>Bhavna Meshram</span> <br />From Nagpur</h1>
             </div>
         </div>
     </div>
     </div>
   )
 }
+export default Navbars;
 
-export default navbars

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: ' Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: linear-gradients( to right, #f9f5f0, #fcefe8); */
+    background-color: black;
+    position: relative;
+    color: beige;
+
+}
+
+.bg {
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/portfolio-removebg-preview\ \(1\).png);
+    /* width: 50%; */
+    background-repeat: no-repeat;
+    background-position: right;
+    /* moves image to the right */
+    background-size: contain;
+    /* property of size */
+
+}
+
+.container {
+    padding: 10px 10%;
+    /* if 10px top & bottom , 10% left & rights side */
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.logo {
+    margin-left: -81px;
+    /* padding:2px; */
+    width: 140px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+     /* if 10px top & bottom , 20px left & rights side */
+}
+
+nav ul li a {
+    /* color: #fff; */
+    /* text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    color: beige; */
+    position: relative;
+    color: beige;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+nav ul li a::after {
+    /* content: '';
+    width: 0%;
+    height: 3px;
+    background: #50031b;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s; */
+    
+
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.data {
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.data h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.data h1 span {
+    color: rgb(122, 10, 10);
+}
